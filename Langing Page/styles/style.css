@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif&family=Rowdies:wght@300;400;700&display=swap');
+body {
+    background-image: url("../SVG/stars\ \(1\).svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#welcome-msg {
+    position: absolute;
+    width: 1090px;
+    height: 212px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 175px;
+
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+    align-items: center;
+    text-align: center;
+
+    /* Redberry Red */
+
+    color: #FE3B1F;
+}
+#starting-button {
+    /* Rectangle 12 */
+
+    position: absolute;
+    width: 395px;
+    height: 79px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 492px;
+
+    background: #FE3B1F;
+    border-radius: 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#submitted-applications-link {
+    /* Submitted Applications */
+
+
+    position: absolute;
+    width: 338px;
+    height: 66px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 589px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+}
+#astronaut-png {
+    /* rocketman */
+
+    position: absolute;
+    width: 409.92px;
+    height: 372.45px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 700px;
+
+}
