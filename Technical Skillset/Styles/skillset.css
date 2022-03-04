@@ -27,16 +27,19 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
 }
 #right-panel h2 {
-  /* right title */
+  /* title */
 
   position: absolute;
-  width: 716px;
-  height: 94px;
-  left: 1116px;
-  top: 112px;
+  width: 788px;
+  height: 175px;
+  left: 1089px;
+  top: 72px;
 
   font-family: Rowdies;
+  font-style: normal;
+  font-weight: normal;
   font-size: 64px;
+  line-height: 79px;
   display: flex;
   align-items: center;
 
@@ -50,8 +53,8 @@ body {
   position: absolute;
   width: 705px;
   height: 606px;
-  left: 1119px;
-  top: 195px;
+  left: 1089px;
+  top: 240px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -68,13 +71,13 @@ body {
 }
 /* end of the right panel's css*/
 #left-panel h2 {
-  /* left title */
+  /* title */
 
   position: absolute;
-  width: 716px;
-  height: 128px;
-  left: 105px;
-  top: 131px;
+  width: 788px;
+  height: 175px;
+  left: 85px;
+  top: 72px;
 
   font-family: Rowdies;
   font-style: normal;
@@ -83,91 +86,12 @@ body {
   line-height: 79px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
 
   /* Redberry Red */
 
   color: #fe3b1f;
-}
-#input-container {
-  /* Group 1 */
-
-  position: absolute;
-  width: 455px;
-  height: 533px;
-  left: 235px;
-  top: 390px;
-}
-#first-name {
-  position: absolute;
-  width: 455px;
-  height: 54px;
-  left: 50%;
-  transform: translate(-50%, 0);
-
-  background: #ffffff;
-  /* Primary Stroke */
-
-  border: 1px solid #525557;
-  box-sizing: border-box;
-}
-#last-name {
-  position: absolute;
-  width: 455px;
-  height: 54px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 91px;
-
-  background: #ffffff;
-  /* Primary Stroke */
-
-  border: 1px solid #525557;
-  box-sizing: border-box;
-}
-#email {
-  /* E Mail */
-
-  position: absolute;
-  width: 455px;
-  height: 54px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 180px;
-
-  background: #ffffff;
-  /* Primary Stroke */
-
-  border: 1px solid #525557;
-  box-sizing: border-box;
-}
-#phone {
-  /* Input BG */
-
-  position: absolute;
-  width: 455px;
-  height: 54px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 285px;
-
-  background: #ffffff;
-  /* Primary Stroke */
-
-  border: 1px solid #525557;
-  box-sizing: border-box;
-}
-.inputs {
-  box-sizing: border-box;
-  padding: 17px 0 13px 57px;
-
-  font-family: Montserrat;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 14px;
-  align-items: center;
-
-  color: #454545;
 }
 #pagination {
   /* Pagination */
@@ -181,4 +105,86 @@ body {
 #next {
   position: absolute;
   padding-left: 213px;
+}
+#experience-form {
+  /* Experience Form */
+  position: relative;
+  width: 455px;
+  height: 193px;
+  left: 200px;
+  top: 366px;
+}
+#skills {
+  /* Input BG */
+  box-sizing: border-box;
+  padding: 17px 203px 13px 57px;
+  width: 455px;
+  height: 54px;
+  left: 200px;
+  top: 366px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+}
+#disabled-option {
+  width: 195px;
+  height: 24px;
+  left: 257px;
+  top: 383px;
+
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+
+  color: #454545;
+}
+#experience {
+  width: 455px;
+  height: 54px;
+  left: 200px;
+  margin-top: 31px;
+  background: #ffffff;
+  /* Primary Stroke */
+
+  border: 1px solid #525557;
+  box-sizing: border-box;
+  padding: 17px 161px 13px 57px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+#adding-button {
+  position: absolute;
+  width: 201px;
+  height: 32px;
+  left: 254px;
+  top: 176px;
+
+  /* Redberry Red */
+
+  background: #fe3b1f;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  border: transparent;
+  text-align: center;
+
+  color: #ffffff;
 }

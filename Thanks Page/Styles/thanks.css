@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif&family=Rowdies:wght@300;400;700&display=swap");
+body {
+  /* Thanks */
+
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  /* Primary BG */
+
+  background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+}
+h1 {
+  /* Thanks for Joining 😊 */
+
+  position: absolute;
+  width: 1066px;
+  height: 191px;
+  left: 427px;
+  top: 444px;
+
+  font-family: Rowdies;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Redberry Red */
+
+  color: #fe3b1f;
+}
